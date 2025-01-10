@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/nodos/nodos.egg-info/PKG-INFO
+../../build/nodos/nodos.egg-info/SOURCES.txt
+../../build/nodos/nodos.egg-info/dependency_links.txt
+../../build/nodos/nodos.egg-info/entry_points.txt
+../../build/nodos/nodos.egg-info/requires.txt
+../../build/nodos/nodos.egg-info/top_level.txt
+../../build/nodos/nodos.egg-info/zip-safe
+nodos/__init__.py
+nodos/nodo_cerebelo.py
+nodos/nodo_nociceptor.py
+resource/nodos
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

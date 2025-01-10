@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/nodos/nodos.egg-info
+writing ../../build/nodos/nodos.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodos/nodos.egg-info/dependency_links.txt
+writing entry points to ../../build/nodos/nodos.egg-info/entry_points.txt
+writing requirements to ../../build/nodos/nodos.egg-info/requires.txt
+writing top-level names to ../../build/nodos/nodos.egg-info/top_level.txt
+writing manifest file '../../build/nodos/nodos.egg-info/SOURCES.txt'
+reading manifest file '../../build/nodos/nodos.egg-info/SOURCES.txt'
+writing manifest file '../../build/nodos/nodos.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/monica/ros2_brazo/build/nodos/build
+creating /home/monica/ros2_brazo/build/nodos/build/lib
+creating /home/monica/ros2_brazo/build/nodos/build/lib/nodos
+copying nodos/__init__.py -> /home/monica/ros2_brazo/build/nodos/build/lib/nodos
+copying nodos/nodo_nociceptor.py -> /home/monica/ros2_brazo/build/nodos/build/lib/nodos
+copying nodos/nodo_cerebelo.py -> /home/monica/ros2_brazo/build/nodos/build/lib/nodos
+running install
+running install_lib
+creating /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos
+copying /home/monica/ros2_brazo/build/nodos/build/lib/nodos/__init__.py -> /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos
+copying /home/monica/ros2_brazo/build/nodos/build/lib/nodos/nodo_nociceptor.py -> /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos
+copying /home/monica/ros2_brazo/build/nodos/build/lib/nodos/nodo_cerebelo.py -> /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos
+byte-compiling /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos/nodo_nociceptor.py to nodo_nociceptor.cpython-310.pyc
+byte-compiling /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos/nodo_cerebelo.py to nodo_cerebelo.cpython-310.pyc
+running install_data
+creating /home/monica/ros2_brazo/install/nodos/share/ament_index
+creating /home/monica/ros2_brazo/install/nodos/share/ament_index/resource_index
+creating /home/monica/ros2_brazo/install/nodos/share/ament_index/resource_index/packages
+copying resource/nodos -> /home/monica/ros2_brazo/install/nodos/share/ament_index/resource_index/packages
+copying package.xml -> /home/monica/ros2_brazo/install/nodos/share/nodos
+running install_egg_info
+Copying ../../build/nodos/nodos.egg-info to /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/monica/ros2_brazo/build/nodos/install.log'
