@@ -1,0 +1,4 @@
+[console_scripts]
+nodo_cerebelo = brazo_antropomorfico.nodo_cerebelo:main
+nodo_nociceptor = brazo_antropomorfico.nodo_nociceptor:main
+

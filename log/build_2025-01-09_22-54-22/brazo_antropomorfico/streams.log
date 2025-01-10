@@ -1,0 +1,41 @@
+[1.513s] Invoking command in '/home/monica/ros2_brazo/src/brazo_antropomorfico': PYTHONPATH=/home/monica/ros2_brazo/build/brazo_antropomorfico/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/brazo_antropomorfico build --build-base /home/monica/ros2_brazo/build/brazo_antropomorfico/build install --record /home/monica/ros2_brazo/build/brazo_antropomorfico/install.log --single-version-externally-managed install_data
+[2.122s] running egg_info
+[2.123s] creating ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info
+[2.123s] writing ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/PKG-INFO
+[2.127s] writing dependency_links to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/dependency_links.txt
+[2.127s] writing entry points to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/entry_points.txt
+[2.127s] writing requirements to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/requires.txt
+[2.127s] writing top-level names to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/top_level.txt
+[2.128s] writing manifest file '../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/SOURCES.txt'
+[2.128s] reading manifest file '../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/SOURCES.txt'
+[2.130s] writing manifest file '../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/SOURCES.txt'
+[2.130s] running build
+[2.130s] running build_py
+[2.131s] creating /home/monica/ros2_brazo/build/brazo_antropomorfico/build
+[2.132s] creating /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib
+[2.132s] creating /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+[2.135s] copying brazo_antropomorfico/__init__.py -> /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+[2.135s] copying brazo_antropomorfico/nodo_nociceptor.py -> /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+[2.135s] copying brazo_antropomorfico/nodo_cerebelo.py -> /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+[2.135s] running install
+[2.136s] running install_lib
+[2.136s] creating /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+[2.136s] copying /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico/__init__.py -> /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+[2.136s] copying /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico/nodo_nociceptor.py -> /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+[2.136s] copying /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico/nodo_cerebelo.py -> /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+[2.142s] byte-compiling /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico/__init__.py to __init__.cpython-310.pyc
+[2.142s] byte-compiling /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico/nodo_nociceptor.py to nodo_nociceptor.cpython-310.pyc
+[2.145s] byte-compiling /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico/nodo_cerebelo.py to nodo_cerebelo.cpython-310.pyc
+[2.145s] running install_data
+[2.145s] creating /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index
+[2.145s] creating /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index/resource_index
+[2.146s] creating /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index/resource_index/packages
+[2.147s] copying resource/brazo_antropomorfico -> /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index/resource_index/packages
+[2.147s] copying package.xml -> /home/monica/ros2_brazo/install/brazo_antropomorfico/share/brazo_antropomorfico
+[2.147s] running install_egg_info
+[2.147s] Copying ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info to /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico-0.0.0-py3.10.egg-info
+[2.147s] running install_scripts
+[2.190s] Installing nodo_cerebelo script to /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/brazo_antropomorfico
+[2.192s] Installing nodo_nociceptor script to /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/brazo_antropomorfico
+[2.192s] writing list of installed files to '/home/monica/ros2_brazo/build/brazo_antropomorfico/install.log'
+[2.252s] Invoked command in '/home/monica/ros2_brazo/src/brazo_antropomorfico' returned '0': PYTHONPATH=/home/monica/ros2_brazo/build/brazo_antropomorfico/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/brazo_antropomorfico build --build-base /home/monica/ros2_brazo/build/brazo_antropomorfico/build install --record /home/monica/ros2_brazo/build/brazo_antropomorfico/install.log --single-version-externally-managed install_data

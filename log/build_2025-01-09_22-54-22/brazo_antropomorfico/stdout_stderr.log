@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info
+writing ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/PKG-INFO
+writing dependency_links to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/dependency_links.txt
+writing entry points to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/entry_points.txt
+writing requirements to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/requires.txt
+writing top-level names to ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/top_level.txt
+writing manifest file '../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/SOURCES.txt'
+reading manifest file '../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/SOURCES.txt'
+writing manifest file '../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/monica/ros2_brazo/build/brazo_antropomorfico/build
+creating /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib
+creating /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+copying brazo_antropomorfico/__init__.py -> /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+copying brazo_antropomorfico/nodo_nociceptor.py -> /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+copying brazo_antropomorfico/nodo_cerebelo.py -> /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico
+running install
+running install_lib
+creating /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+copying /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico/__init__.py -> /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+copying /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico/nodo_nociceptor.py -> /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+copying /home/monica/ros2_brazo/build/brazo_antropomorfico/build/lib/brazo_antropomorfico/nodo_cerebelo.py -> /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico
+byte-compiling /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico/nodo_nociceptor.py to nodo_nociceptor.cpython-310.pyc
+byte-compiling /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico/nodo_cerebelo.py to nodo_cerebelo.cpython-310.pyc
+running install_data
+creating /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index
+creating /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index/resource_index
+creating /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index/resource_index/packages
+copying resource/brazo_antropomorfico -> /home/monica/ros2_brazo/install/brazo_antropomorfico/share/ament_index/resource_index/packages
+copying package.xml -> /home/monica/ros2_brazo/install/brazo_antropomorfico/share/brazo_antropomorfico
+running install_egg_info
+Copying ../../build/brazo_antropomorfico/brazo_antropomorfico.egg-info to /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/python3.10/site-packages/brazo_antropomorfico-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nodo_cerebelo script to /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/brazo_antropomorfico
+Installing nodo_nociceptor script to /home/monica/ros2_brazo/install/brazo_antropomorfico/lib/brazo_antropomorfico
+writing list of installed files to '/home/monica/ros2_brazo/build/brazo_antropomorfico/install.log'
