@@ -1,7 +1,8 @@
 # Nodos
-Tenemos nodo nociceptor y nodo cerebelo.
+- Nodo nociceptor
+- Nodo cerebelo
 
-## Comandos 
+# Comandos 
 cd ~/ros2_brazo
 source install/setup.bash
 ros2 run brazo_antropomorfico nodo_nociceptor
