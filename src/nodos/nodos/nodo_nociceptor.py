@@ -36,7 +36,6 @@ class nodoNociceptor(Node):
 def main(args=None):
     # Conexion con el entorno de ROS
     rclpy.init(args=args)
-    # Instancia del nodoNociceptor
     nociceptor_node = nodoNociceptor()
     try:
         rclpy.spin(nociceptor_node)
