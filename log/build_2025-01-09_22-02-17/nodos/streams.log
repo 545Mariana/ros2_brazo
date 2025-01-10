@@ -1,0 +1,26 @@
+[1.615s] Invoking command in '/home/monica/ros2_brazo/src/nodos': PYTHONPATH=/home/monica/ros2_brazo/build/nodos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nodos build --build-base /home/monica/ros2_brazo/build/nodos/build install --record /home/monica/ros2_brazo/build/nodos/install.log --single-version-externally-managed install_data
+[2.216s] running egg_info
+[2.217s] writing ../../build/nodos/nodos.egg-info/PKG-INFO
+[2.218s] writing dependency_links to ../../build/nodos/nodos.egg-info/dependency_links.txt
+[2.218s] writing entry points to ../../build/nodos/nodos.egg-info/entry_points.txt
+[2.219s] writing requirements to ../../build/nodos/nodos.egg-info/requires.txt
+[2.219s] writing top-level names to ../../build/nodos/nodos.egg-info/top_level.txt
+[2.222s] reading manifest file '../../build/nodos/nodos.egg-info/SOURCES.txt'
+[2.224s] adding license file 'LICENSE'
+[2.225s] writing manifest file '../../build/nodos/nodos.egg-info/SOURCES.txt'
+[2.226s] running build
+[2.226s] running build_py
+[2.226s] copying nodos/__init__.py -> /home/monica/ros2_brazo/build/nodos/build/lib/nodos
+[2.229s] running install
+[2.230s] running install_lib
+[2.231s] copying /home/monica/ros2_brazo/build/nodos/build/lib/nodos/__init__.py -> /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos
+[2.233s] byte-compiling /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos/__init__.py to __init__.cpython-310.pyc
+[2.234s] running install_data
+[2.235s] copying resource/nodos -> /home/monica/ros2_brazo/install/nodos/share/ament_index/resource_index/packages
+[2.236s] copying package.xml -> /home/monica/ros2_brazo/install/nodos/share/nodos
+[2.238s] running install_egg_info
+[2.242s] removing '/home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos-0.0.0-py3.10.egg-info' (and everything under it)
+[2.242s] Copying ../../build/nodos/nodos.egg-info to /home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages/nodos-0.0.0-py3.10.egg-info
+[2.247s] running install_scripts
+[2.290s] writing list of installed files to '/home/monica/ros2_brazo/build/nodos/install.log'
+[2.348s] Invoked command in '/home/monica/ros2_brazo/src/nodos' returned '0': PYTHONPATH=/home/monica/ros2_brazo/build/nodos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monica/ros2_brazo/install/nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nodos build --build-base /home/monica/ros2_brazo/build/nodos/build install --record /home/monica/ros2_brazo/build/nodos/install.log --single-version-externally-managed install_data

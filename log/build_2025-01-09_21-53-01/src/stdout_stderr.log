@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/src/src.egg-info
+writing ../build/src/src.egg-info/PKG-INFO
+writing dependency_links to ../build/src/src.egg-info/dependency_links.txt
+writing entry points to ../build/src/src.egg-info/entry_points.txt
+writing requirements to ../build/src/src.egg-info/requires.txt
+writing top-level names to ../build/src/src.egg-info/top_level.txt
+writing manifest file '../build/src/src.egg-info/SOURCES.txt'
+reading manifest file '../build/src/src.egg-info/SOURCES.txt'
+writing manifest file '../build/src/src.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/monica/ros2_brazo/build/src/build
+creating /home/monica/ros2_brazo/build/src/build/lib
+creating /home/monica/ros2_brazo/build/src/build/lib/src
+copying src/__init__.py -> /home/monica/ros2_brazo/build/src/build/lib/src
+running install
+running install_lib
+creating /home/monica/ros2_brazo/install/src/lib/python3.10/site-packages/src
+copying /home/monica/ros2_brazo/build/src/build/lib/src/__init__.py -> /home/monica/ros2_brazo/install/src/lib/python3.10/site-packages/src
+byte-compiling /home/monica/ros2_brazo/install/src/lib/python3.10/site-packages/src/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/monica/ros2_brazo/install/src/share/ament_index
+creating /home/monica/ros2_brazo/install/src/share/ament_index/resource_index
+creating /home/monica/ros2_brazo/install/src/share/ament_index/resource_index/packages
+copying resource/src -> /home/monica/ros2_brazo/install/src/share/ament_index/resource_index/packages
+copying package.xml -> /home/monica/ros2_brazo/install/src/share/src
+running install_egg_info
+Copying ../build/src/src.egg-info to /home/monica/ros2_brazo/install/src/lib/python3.10/site-packages/src-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/monica/ros2_brazo/build/src/install.log'

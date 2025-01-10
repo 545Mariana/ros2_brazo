@@ -7,7 +7,7 @@ from random import uniform
 class nodoNociceptor(Node):
     def __init__(self):
         # El nombre identifica el nodo dentro del sistema
-        super()._init_('nodo_nociceptor')
+        super().__init__('nodo_nociceptor')
         # Crear publicador asociado al topic 
         # Nombre del topic: nociceptor_data
         self.publisher_ = self.create_publisher(Float32, 'nociceptor_data', 10)
@@ -36,6 +36,7 @@ class nodoNociceptor(Node):
 def main(args=None):
     # Conexion con el entorno de ROS
     rclpy.init(args=args)
+    # Instancia del nodoNociceptor
     nociceptor_node = nodoNociceptor()
     try:
         rclpy.spin(nociceptor_node)

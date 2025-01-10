@@ -1,16 +1,16 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int32, String # Tipos de mensajes
+from std_msgs.msg import Float32, String # Tipos de mensajes
 
 # Clase para el cerebelo
 class nodoCerebelo(Node):
-    def _init_(self):
+    def __init__(self):
         # Inicializar nodo con nombre
-        super()._init_('nodo_cerebelo')
+        super().__init__('nodo_cerebelo')
         # Crear suscriptor. Escucha al topic
         # En el topic, el nodo nociceptor publica los valores
         self.subscription = self.create_subscription(
-            Int32,
+            Float32,
             'nociceptor_data',
             self.respuesta_nociceptor,
             10)
